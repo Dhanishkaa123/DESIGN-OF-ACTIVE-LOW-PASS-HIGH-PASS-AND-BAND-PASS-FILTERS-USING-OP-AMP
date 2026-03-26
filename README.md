@@ -27,24 +27,21 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 # TABULATION:
 | S.No | Frequency (Hz) | Output Voltage (Volts) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|------------------------|----------------------------|
-| 1    |                |                        |                            |
-| 2    |                |                        |                            |
-| 3    |                |                        |                            |
-| 4    |                |                        |                            |
-| 5    |                |                        |                            |
-| 6    |                |                        |                            |
-| 7    |                |                        |                            |
-| 8    |                |                        |                            |
-| 9    |                |                        |                            |
-| 10   |                |                        |                            |
-| 11   |                |                        |                            |
-| 12   |                |                        |                            |
+| 1    |      5          |          0              |             1.0           |
+| 2    |       10         |         -5               |           0.56              |
+| 3    |      15          |         -10               |          0.32                  |
+| 4    |      20          |           -15             |         0.18                   |
+| 5    |        25        |             -20           |         0.10                   |
+| 6    |       30         |            -28            |         0.04                   |
+| 7    |      35       |             -35          |              0.018              |
+
 
 # MODEL GRAPH :
 <img width="1005" height="488" alt="image" src="https://github.com/user-attachments/assets/04b8a789-725b-498c-909a-24f3d535bdb1" />
 
 # PRACTICAL GRPAH:
-PASTE UR GRAPH HERE
+<img width="431" height="348" alt="image" src="https://github.com/user-attachments/assets/2fcaa9b3-b63c-4611-80c0-d69f89fcdd34" />
+
 # THEORY 
 # HIGH PASS FILTER
 The frequency at which the magnitude of the gain is 0.707 times the maximum value of gain is called low cut off frequency. Obviously, all frequencies higher than fL are pass band frequencies with the highest frequency determined by the closed –loop band width all of the op- amp.
@@ -55,25 +52,22 @@ The frequency at which the magnitude of the gain is 0.707 times the maximum valu
 # TABULATION:
 | S.No | Frequency (Hz) | Output Voltage (Volts) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|------------------------|----------------------------|
-| 1    |                |                        |                            |
-| 2    |                |                        |                            |
-| 3    |                |                        |                            |
-| 4    |                |                        |                            |
-| 5    |                |                        |                            |
-| 6    |                |                        |                            |
-| 7    |                |                        |                            |
-| 8    |                |                        |                            |
-| 9    |                |                        |                            |
-| 10   |                |                        |                            |
-| 11   |                |                        |                            |
-| 12   |                |                        |                            |
+| 1    |        2       |         -30            |           0.032            |
+| 2    |      4          |         -25             |0.056                          |
+| 3    |        6        |        -18             |           0.13                 |
+| 4    |8                |        -12              |              0.25              |
+| 5    |        10        |       -8                |              0.40              |
+| 6    |        12        |       -5               |                            0.56|
+| 7    |        111114        |       -2                |         0.79                   |
+
 
 # MODEL GRAPH :
 <img width="913" height="559" alt="image" src="https://github.com/user-attachments/assets/e5dd4a94-c844-4c4c-889b-7631e30407e6" />
 
 
 # PRACTICAL GRPAH:
-PASTE UR GRAPH HERE
+<img width="463" height="318" alt="image" src="https://github.com/user-attachments/assets/a21b71d6-b098-4c9d-9344-307c88f31479" />
+
 # THEORY 
 # BAND PASS FILTER
 A band pass filter has a pass band between two cutoff frequencies fH and fL such that fH > fL. Any input frequency outside this pass band is attenuated. There are two types of band-pass filters. Wide band pass and Narrow band pass filters. We can define a filter as wide band pass if its quality factor Q <10. If Q>10, then we call the filter a narrow band pass filter. A wide band pass filter can be formed by simply cascading high-pass and low-pass sections. The order of band pass filter depends on the order of high pass and low pass sections.
@@ -85,24 +79,21 @@ A band pass filter has a pass band between two cutoff frequencies fH and fL such
 # TABULATION:
 | S.No | Frequency (Hz) | Output Voltage (Volts) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|------------------------|----------------------------|
-| 1    |                |                        |                            |
-| 2    |                |                        |                            |
-| 3    |                |                        |                            |
-| 4    |                |                        |                            |
-| 5    |                |                        |                            |
-| 6    |                |                        |                            |
-| 7    |                |                        |                            |
-| 8    |                |                        |                            |
-| 9    |                |                        |                            |
-| 10   |                |                        |                            |
-| 11   |                |                        |                            |
-| 12   |                |                        |                            |
+| 1    |     5           |          -30              |            0.032                |
+| 2    |      10          |         -20               |           0.1                 |
+| 3    |      15          |         -12               |           0.25                 |
+| 4    |      20          |           -8             |            0.40                |
+| 5    |      25          |           -6             |               0.50             |
+| 6    |       30         |            -10            |                  0.32          |
+| 7    |       35         |             -18           |              0.13              |
+
 
 # MODEL GRAPH :
 <img width="1055" height="537" alt="image" src="https://github.com/user-attachments/assets/1b24ba4f-6fd5-4e79-96c7-5a913eff0217" />
 
 # PRACTICAL GRPAH:
-PASTE UR GRAPH HERE
+<img width="524" height="334" alt="image" src="https://github.com/user-attachments/assets/71547f87-4edc-4605-8431-9f7c96ec5e81" />
+
 
 # PROCEDURE - (LPF & HPF):
 1.	Connect the circuit as shown in the circuit diagram.
